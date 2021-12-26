@@ -11,5 +11,14 @@
     }
 
     return strs[0];
-    
-    };
+
+};
+
+/*
+
+- Create a return for a return early on empty input
+- Loop through the letters of the first word
+- Check if this character is present in the same position of every string
+- If the character is not present, then return the string up to and including the previous character
+
+*/
